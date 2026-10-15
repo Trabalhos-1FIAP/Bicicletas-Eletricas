@@ -68,7 +68,7 @@ export default function Produtos() {
                                     <p className="text-claro/70">Autonomia de {b.autonomia}</p>
                                     <div className="mt-5 flex items-center justify-between">
                                         <span className="text-2xl font-black">{b.preco}</span>
-                                        <button className="bg-volt px-5 py-2 font-extrabold uppercase text-carvao hover:bg-claro">
+                                        <button className="bg-volt px-5 py-2 font-extrabold uppercase text-carvao hover:bg-claro hover:cursor-pointer">
                                             Comprar
                                         </button>
                                     </div>
