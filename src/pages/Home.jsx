@@ -1,11 +1,11 @@
-import Produtos from '../components/Produtos'
-import Sobre from '../components/Sobre'
-import Contato from '../components/Contato'
+import Produto from '../components/Produto'
+import Sobre from '../pages/Sobre'
+import Contato from '../pages/Contato'
 
 export default function Home() {
   return (
     <main>
-      <Produtos />
+      <Produto />
       <Sobre />
       <Contato />
     </main>
