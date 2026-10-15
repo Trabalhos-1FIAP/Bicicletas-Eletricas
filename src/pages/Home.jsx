@@ -1,11 +1,13 @@
-import React from 'react'
+import Produtos from '../components/Produtos'
+import Sobre from '../components/Sobre'
+import Contato from '../components/Contato'
 
-const Home = () => {
+export default function Home() {
   return (
-    <div>
-      
-    </div>
+    <main>
+      <Produtos />
+      <Sobre />
+      <Contato />
+    </main>
   )
 }
-
-export default Home
